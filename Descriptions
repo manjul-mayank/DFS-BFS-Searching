@@ -1,0 +1,45 @@
+8-Puzzle Solver using Breadth-First Search (BFS)
+This project is an implementation of the 8-puzzle problem, a classic problem in artificial intelligence and problem-solving. The program solves the puzzle using Breadth-First Search (BFS) to explore all possible moves until the goal state is reached.
+
+Problem Description
+The 8-puzzle consists of a 3x3 grid containing tiles numbered from 1 to 8 and one blank space (represented as 0). The objective is to move the tiles to reach the goal state:
+
+Copy
+Edit
+1 2 3
+4 5 6
+7 8 0
+from any given initial state.
+
+Features
+Implements Breadth-First Search (BFS) to explore all possible moves.
+Displays the sequence of moves leading to the solution.
+Output includes each intermediate state of the puzzle during the search.
+Requirements
+Python 3.x
+Jupyter Notebook (for running the .ipynb file)
+How to Run
+Clone this repository or download the notebook file.
+Open the file in Jupyter Notebook.
+Execute the notebook cells to run the BFS-based solver.
+Sample Output
+The program outputs the sequence of moves from the initial state to the goal state. For example:
+
+csharp
+Copy
+Edit
+Initial state:
+[1, 3, 4]
+[0, 2, 5]
+[8, 6, 7]
+
+BFS Move:
+[1, 3, 4]
+[8, 2, 5]
+[0, 6, 7]
+Future Improvements
+Add other search strategies like Depth-First Search (DFS) or A*.
+Improve the heuristic for faster search.
+Add visualization for better understanding of moves.
+Author
+Manjul Mayank
